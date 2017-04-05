@@ -8,10 +8,10 @@ import org.slf4j.LoggerFactory;
  * Date：2017/4/5 Time：23:44
  * Description:
  */
-public class R5Son extends R5Father {
-    public static final Logger logger = LoggerFactory.getLogger(R5Son.class);
+public class R4Son extends R4Father {
+    public static final Logger logger = LoggerFactory.getLogger(R4Son.class);
 
-    public R5Son() {
+    public R4Son() {
         logger.info("son create");
     }
 }

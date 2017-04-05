@@ -1,23 +1,37 @@
 package com.ifunq.sfht.common.books.effective_java;
 
-import com.ifunq.sfht.common.books.effective_java.modules.R5Father;
-import com.ifunq.sfht.common.books.effective_java.modules.R5Son;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.Date;
 
 /**
  * R2
  * Created by  Yanghua on
  * Date：2017/4/5 Time：20:46
- * Description: 通过私有构造器强化不可以实例化的能力
+ * Description: 避免创建不必要的对象
  */
 public class EffectiveJavaR5 {
-    //强化不可以实例对象
-    private EffectiveJavaR5() {
-        throw new AssertionError();
-    }
+    private static final Logger logger = LoggerFactory.getLogger(EffectiveJavaR5.class);
 
     public static void main(String[] args) {
-        R5Son son = new R5Son();
-        R5Son son2 = new R5Son();
-        R5Father fater = new R5Son();
+        long startTime = new Date().getTime();
+        for (int i = 0; i <100; i++) {
+            //don't do this
+            String name = new String("yanghua");
+            if (i == 0) {
+                logger.info(name + "does not say hello!");
+            } else if (i == 1) {
+                logger.info(name + "say hello " + i + "time");
+            } else {
+                logger.info(name + "say hello " + i + "times");
+            }
+
+        }
+        long endTime = new Date().getTime();
+
+        System.out.println(endTime-startTime);
+
+
     }
 }

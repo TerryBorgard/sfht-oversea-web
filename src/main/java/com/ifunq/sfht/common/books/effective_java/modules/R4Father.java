@@ -8,10 +8,10 @@ import org.slf4j.LoggerFactory;
  * Date：2017/4/5 Time：23:41
  * Description: 用于尝试extends方法 是否继承了父类构造参数
  */
-public class R5Father {
-    private static final Logger logger = LoggerFactory.getLogger(R5Father.class);
+public class R4Father {
+    private static final Logger logger = LoggerFactory.getLogger(R4Father.class);
 
-    public R5Father() {
+    public R4Father() {
         logger.info("father create");
     }
 }
