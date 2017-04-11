@@ -1,8 +1,8 @@
-package com.ifunq.sfht.common.books.effective_java;
+package com.ifunq.sfht.common.books.effective_java.create_destroy_obj;
 
-import com.ifunq.sfht.common.books.effective_java.modules.R2NutritionFactsBuilder;
-import com.ifunq.sfht.common.books.effective_java.modules.R2NutritionFactsJB;
-import com.ifunq.sfht.common.books.effective_java.modules.R2NutritionFactsTC;
+import com.ifunq.sfht.common.books.effective_java.create_destroy_obj.modules.R2NutritionFactsBuilder;
+import com.ifunq.sfht.common.books.effective_java.create_destroy_obj.modules.R2NutritionFactsJB;
+import com.ifunq.sfht.common.books.effective_java.create_destroy_obj.modules.R2NutritionFactsTC;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

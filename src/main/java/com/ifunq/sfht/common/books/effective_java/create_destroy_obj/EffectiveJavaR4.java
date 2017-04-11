@@ -1,7 +1,7 @@
-package com.ifunq.sfht.common.books.effective_java;
+package com.ifunq.sfht.common.books.effective_java.create_destroy_obj;
 
-import com.ifunq.sfht.common.books.effective_java.modules.R4Father;
-import com.ifunq.sfht.common.books.effective_java.modules.R4Son;
+import com.ifunq.sfht.common.books.effective_java.create_destroy_obj.modules.R4Father;
+import com.ifunq.sfht.common.books.effective_java.create_destroy_obj.modules.R4Son;
 
 /**
  * R2
