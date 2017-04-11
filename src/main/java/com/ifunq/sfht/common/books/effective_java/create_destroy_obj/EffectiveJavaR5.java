@@ -1,4 +1,4 @@
-package com.ifunq.sfht.common.books.effective_java;
+package com.ifunq.sfht.common.books.effective_java.create_destroy_obj;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

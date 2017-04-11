@@ -1,4 +1,4 @@
-package com.ifunq.sfht.common.books.effective_java.modules;
+package com.ifunq.sfht.common.books.effective_java.create_destroy_obj.modules;
 
 /**
  * Created by  Yanghua on
