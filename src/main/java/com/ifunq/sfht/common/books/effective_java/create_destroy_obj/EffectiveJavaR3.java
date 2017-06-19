@@ -33,6 +33,7 @@ public class EffectiveJavaR3 {
     }
 
     public static void main(String[] args) {
+        EffectiveJavaR3.getInstance();
         //枚举单例模式
         R3SingleTonEnum.INSTANCE.leaveTheBuilding();
     }

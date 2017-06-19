@@ -11,11 +11,12 @@ import com.ifunq.sfht.common.books.effective_java.create_destroy_obj.modules.R4S
  */
 public class EffectiveJavaR4 {
     //强化不可以实例对象  并且该类不可以被子类话  extends
-    // 子类会继承父类的构造方法？好像是的，常识忘记了
+    //子类会继承父类的构造方法？好像是的，常识忘记了
     //强化不可以实例对象
     private EffectiveJavaR4() {
         throw new AssertionError();
     }
+
 
     public static void main(String[] args) {
         R4Son son = new R4Son();
